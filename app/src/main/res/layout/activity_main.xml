@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Enter Feedback details to send to the developer:"
+        android:textColor="#8E7F7F"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edFullname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Full name"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:background="@color/white"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#B5ACAC"/>
+
+    <EditText
+        android:id="@+id/edDescribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Describe"
+        android:textSize="30sp"
+        android:background="@color/white"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Would you like an email response?"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Feedback"
+        android:background="#FF9800"/>
+
+
+
+</LinearLayout>
